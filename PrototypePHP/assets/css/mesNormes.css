@@ -1,0 +1,78 @@
+/******************************* Font-family *******************************/
+@font-face {
+    font-family: 'almendrabold';
+    src: url('/fontSalem/almendra-bold-webfont.woff2') format('woff2'),
+         url('/fontSalem/almendra-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'almendrabold_italic';
+    src: url('/fontSalem/almendra-bolditalic-webfont.woff2') format('woff2'),
+         url('/fontSalem/almendra-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'almendraitalic';
+    src: url('/fontSalem/almendra-italic-webfont.woff2') format('woff2'),
+         url('/fontSalem/almendra-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'almendraregular';
+    src: url('/fontSalem/almendra-regular-webfont.woff2') format('woff2'),
+         url('/fontSalem/almendra-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/******************************* General Doc *******************************/
+
+html{
+background-color: rgb(32, 29, 48);
+}
+
+html,
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article{
+    margin: 0;
+    padding: 0;
+    /*background-color:rgba(40, 32, 63, 0.74);*/
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'almendraitalic';
+    font-weight: 500;
+    font-style: bold;
+    font-size: 55px;
+}
+
+h2{
+
+    font-family: 'almendraitalic';
+}
